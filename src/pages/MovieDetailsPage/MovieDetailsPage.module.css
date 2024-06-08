@@ -1,0 +1,12 @@
+.page{
+    margin: 10px;
+color: black;
+}
+
+.goto{
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 10px;
+    
+}
