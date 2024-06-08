@@ -3,7 +3,6 @@
     justify-content: left;    
     padding: 10px;
     gap: 10px;  
-    
 }
 
 .input{
@@ -24,6 +23,6 @@
     padding: 10px;
     font-weight: 500;
     font-size: medium;
-    justify-content: center;
+  justify-content: center;
 
 }

@@ -3,15 +3,16 @@ border-top: 1px solid lightgray;
 margin: 10px;
 }
 .list{
-    
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    color: black;
 }
 .conteiner{
     display: block;
-text-decoration: none;
-width: 200px;
+    text-decoration: none;
+    width: 200px;
+    
 }
 .img{
     display: block;

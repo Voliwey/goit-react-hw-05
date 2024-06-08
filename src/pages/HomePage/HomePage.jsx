@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import css from './HomePage.module.css'
 
 import { getMovies } from "../../components/movie-api";
 
@@ -37,7 +38,7 @@ export default function HomePage() {
   };
   return (
     <div>
-      <h2>Trending movies </h2>
+      <h2 className={css.treading}>Trending movies </h2>
       {loading && <Loader />}
       {error && <ErrorMessage />}
       {Movies.length > 0 && <MovieGallery items={Movies} />}
